@@ -6,8 +6,8 @@ import {
 import './App.css'
 import Header from './components/header/Header'
 import store from './redux/store'
-import Home from './screen/home/Home'
-import Rides from './screen/rides/Rides'
+import Home from './screens/home/Home'
+import Rides from './screens/rides/Rides'
 
 function App() {
   return (
