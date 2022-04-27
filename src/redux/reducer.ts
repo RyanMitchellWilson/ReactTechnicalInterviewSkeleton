@@ -6,10 +6,7 @@ import { initialState } from './state'
 const reducer = createReducer(initialState, builder => {
   builder
     .addCase(updateExampleCount, (state, { payload }) => {
-      return {
-        ...state,
-        exampleCount: payload
-      }
+      state.exampleCount = payload
     })
 })
 

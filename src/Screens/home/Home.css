@@ -1,0 +1,37 @@
+.Button {
+  align-items: center;
+  border-radius: 40px;
+  border-style: solid;
+  border-width: 2px;
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  user-select: none;
+  width: 40px;
+}
+
+.ButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.ButtonMinus {
+  background-color: lightcoral;
+  margin-right: 5px;
+}
+
+.ButtonPlus {
+  background-color: yellowgreen;
+  margin-left: 5px;
+}
+
+.CountText {
+  font-size: 22px;
+}
+
+.Title {
+  margin-bottom: 20px;
+}

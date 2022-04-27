@@ -1,0 +1,22 @@
+.RouteButtonLeft {
+  border-bottom-left-radius: 10px;
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  cursor: pointer;
+  flex: 1;
+  padding: 10px;
+}
+
+.RouteButtonRight {
+  border-bottom-right-radius: 10px;
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  cursor: pointer;
+  flex: 1;
+  padding: 10px;
+}
+
+.RoutingContainer {
+  display: flex;
+  flex-direction: row;
+}
