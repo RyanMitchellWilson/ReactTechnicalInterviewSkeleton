@@ -5,10 +5,12 @@ const store = configureStore({
   middleware: getDefaultMiddleware =>
     getDefaultMiddleware({
       immutableCheck: false,
-      serializableCheck: true,
+      serializableCheck: false,
       thunk: true,
     }),
   reducer,
 })
 
-export default store
+export const getStore = () => {
+  return store
+}
