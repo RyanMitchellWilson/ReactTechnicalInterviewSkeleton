@@ -1,10 +1,5 @@
 .App {
   display: flex;
-  flex: 1;
-  justify-content: center;
+  flex-direction: column;
   text-align: center;
-}
-
-.AppContainer {
-  width: 600px;
 }
