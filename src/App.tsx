@@ -3,7 +3,8 @@ import {
   BrowserRouter as Router, Outlet, Route, Routes
 } from "react-router-dom"
 import './App.css'
-import Header from './components/header/Header'
+
+import NavBar from './components/navbar'
 import Home from './screens/home/Home'
 import Rides from './screens/rides/Rides'
 
@@ -12,9 +13,9 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<AppLayout />}>
-          <Route index element={<Home/>} />
-          <Route path='/rides' element={<Rides/>}/>
-          <Route path='*' element={<Home/>}/>
+          <Route index element={<Home />}/>
+          <Route path='/rides' element={<Rides />}/>
+          <Route path='*' element={<Home />}/>
         </Route>
       </Routes>
     </Router>
@@ -24,7 +25,7 @@ function App() {
 const AppLayout = () => {
   return (
     <div className="App">
-      <Header />
+      <NavBar />
       <Outlet />
     </div>
   )
