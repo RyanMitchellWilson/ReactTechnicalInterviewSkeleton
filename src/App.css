@@ -1,10 +1,24 @@
 .App {
+  align-items: center;
   display: flex;
-  flex: 1;
-  justify-content: center;
+  flex-direction: column;
   text-align: center;
 }
 
-.AppContainer {
-  width: 600px;
+nav {
+  display: flex;
+  height: 48px;
+}
+
+nav a {
+  align-items: center;
+  border: solid #000 1px;
+  border-radius: 0px 0px 10px 0px;
+  display: flex;
+  padding: 0px 100px;
+  text-decoration: none;
+}
+
+nav a.left {
+  border-radius: 0px 0px 0px 10px;
 }

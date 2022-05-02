@@ -1,37 +1,20 @@
-.Button {
-  align-items: center;
-  border-radius: 40px;
-  border-style: solid;
-  border-width: 2px;
+div.homePage button {
+  border: solid #000 2px;
+  border-radius: 20px;
   cursor: pointer;
-  display: flex;
+  font-size: 1rem;
   height: 40px;
-  justify-content: center;
-  user-select: none;
+  margin: 0px 2.5px;
   width: 40px;
 }
 
-.ButtonContainer {
+div.homePage button.btn-minus { background-color: lightcoral; }
+div.homePage button.btn-plus { background-color: yellowgreen; }
+
+div.homePage div {
+  align-items: center;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.ButtonMinus {
-  background-color: lightcoral;
-  margin-right: 5px;
-}
-
-.ButtonPlus {
-  background-color: yellowgreen;
-  margin-left: 5px;
-}
-
-.CountText {
   font-size: 22px;
-}
-
-.Title {
-  margin-bottom: 20px;
+  margin-top: 20px;
+  justify-content: center;
 }

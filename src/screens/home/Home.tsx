@@ -17,14 +17,12 @@ const Home = () => {
   }, [dispatch, exampleCount])
 
   return (
-    <div>
-      <h1 className='Title'>Home</h1>
+    <div className="homePage">
+      <h1>Home</h1>
+      <div>{exampleCount}</div>
       <div>
-        <div className='CountText'>{exampleCount}</div>
-        <div className='ButtonContainer'>
-          <div className='Button ButtonMinus' onClick={minusExampleCount}>-</div>
-          <div className='Button ButtonPlus' onClick={addExampleCount}>+</div>
-        </div>
+        <button className="btn-minus" onClick={minusExampleCount}>-</button>
+        <button className="btn-plus" onClick={addExampleCount}>+</button>
       </div>
     </div>
   )
